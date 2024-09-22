@@ -12,16 +12,18 @@
     </header>
     <main>
       <form id="formContainer">
-        <label>Number of Character</label>
+        <h2>Number of Characters</h2>
         <input
           type="text"
           name="Number of characters"
-          id="quantity"
-          minlength="9"
+          id="length"
           maxlength="50"
         />
+        <input type="text" id="result" />
         <section>
-          <button id="ganeratebtn">Generar</button>
+          <button type="button" id="ganeratebtn" onclick="password()">
+            Generar
+          </button>
           <button id="copybtn">Copiar</button>
           <button id="clearbtn">Limpiar</button>
         </section>
