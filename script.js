@@ -22,3 +22,16 @@ function password() {
   showResult.value = result;
   console.log(result);
 }
+
+function clear() {
+  showResult.value = "";
+  quantity.value = "";
+  return true;
+}
+
+function copyPassword() {
+  let copyCharacters = document.getElementById("result");
+  copyCharacters.select();
+  document.execCommand("copy");
+  console.log(copyPassword);
+}
