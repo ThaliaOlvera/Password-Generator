@@ -23,10 +23,11 @@ function password() {
   console.log(result);
 }
 
-function clear() {
+function clearFields() {
   showResult.value = "";
   quantity.value = "";
-  return true;
+  console.log(showResult.value);
+  console.log(quantity.value);
 }
 
 function copyPassword() {
